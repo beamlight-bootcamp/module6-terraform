@@ -3,6 +3,8 @@ resource "aws_instance" "myfirstinstance" {
   instance_type = var.instance_type
   # region = var.region
   tags = var.tags
+
+  key_name = var.key_name
   #""
 }
 #
