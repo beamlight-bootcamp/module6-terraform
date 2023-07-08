@@ -15,3 +15,8 @@ variable "tags" {
     description = "Define the tags"
     type = map(string)
 }
+
+variable "key_name" {
+    description = "my key name"
+    type = string
+}
